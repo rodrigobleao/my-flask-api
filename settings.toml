@@ -1,0 +1,19 @@
+[default]
+DEBUG = false
+# SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:postgrespw@localhost:32768'
+SQLALCHEMY_DATABASE_URI = 'sqlite:///development.db'
+TITLE = "poncetechApi"
+JWT_SECRET_KEY = 'your-secret-key'
+JWT_ACCESS_TOKEN_EXPIRES = 604800 #one week in seconds
+EXTENSIONS = [
+    "poncetechApi.database.database:init_app",
+    "poncetechApi.ext.auth:init_app",
+    "poncetechApi.ext.commands:init_app",
+    "poncetechApi.restapi:init_app",
+]
+
+[testing]
+SQLALCHEMY_DATABASE_URI = 'sqlite:///testing.db'
+
+[production]
+SQLALCHEMY_DATABASE_URI = 'sqlite:///production.db'

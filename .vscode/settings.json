@@ -1,0 +1,7 @@
+{
+  "files.exclude": {
+    "poncetechApi/restapi/__pycache__": true,
+    "poncetechApi/ext/__pycache__": true,
+    "poncetechApi/__pycache__": true,
+  }
+}
