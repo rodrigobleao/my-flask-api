@@ -1,8 +1,7 @@
+from flask import make_response, jsonify
 from poncetechApi.database.database import db
 from poncetechApi.database.models import User
 from flask_jwt_extended import create_access_token
-from flask import make_response, jsonify
-
 class UserService():
     def login(usuario, senha):
         if not usuario or not senha:
