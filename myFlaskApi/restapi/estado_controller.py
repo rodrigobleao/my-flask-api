@@ -1,7 +1,7 @@
 from flask_restful import Resource
 from flask_jwt_extended import jwt_required
 
-from poncetechApi.services.estado_service import EstadoService
+from myFlaskApi.services.estado_service import EstadoService
 
 class EstadoController(Resource):
     

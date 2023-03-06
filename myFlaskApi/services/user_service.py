@@ -1,6 +1,6 @@
 from flask import make_response, jsonify
-from poncetechApi.database.database import db
-from poncetechApi.database.models import User
+from myFlaskApi.database.database import db
+from myFlaskApi.database.models import User
 from flask_jwt_extended import create_access_token
 class UserService():
     def login(usuario, senha):

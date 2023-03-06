@@ -1,5 +1,5 @@
 from flask import make_response, jsonify
-from poncetechApi.database.models import Estado
+from myFlaskApi.database.models import Estado
 
 
 class EstadoService:

@@ -1,7 +1,7 @@
 import click
-from poncetechApi.database.database import db
-from poncetechApi.services.user_service import UserService
-from poncetechApi.database.models import Estado
+from myFlaskApi.database.database import db
+from myFlaskApi.services.user_service import UserService
+from myFlaskApi.database.models import Estado
 
 
 def create_db():

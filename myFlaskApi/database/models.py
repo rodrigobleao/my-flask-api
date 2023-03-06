@@ -1,4 +1,4 @@
-from poncetechApi.database.database import db
+from myFlaskApi.database.database import db
 from sqlalchemy_serializer import SerializerMixin
 from sqlalchemy.ext.hybrid import hybrid_property
 from werkzeug.security import check_password_hash, generate_password_hash

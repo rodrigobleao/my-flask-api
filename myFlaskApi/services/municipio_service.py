@@ -1,6 +1,6 @@
 from flask import jsonify, make_response
-from poncetechApi.database.database import db
-from poncetechApi.database.models import Municipio
+from myFlaskApi.database.database import db
+from myFlaskApi.database.models import Municipio
 
 
 class MunicipioService():

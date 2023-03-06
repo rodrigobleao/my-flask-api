@@ -1,5 +1,5 @@
 from flask_restful import Resource, reqparse
-from poncetechApi.services.user_service import UserService
+from myFlaskApi.services.user_service import UserService
 from flask_jwt_extended import jwt_required
 
 
